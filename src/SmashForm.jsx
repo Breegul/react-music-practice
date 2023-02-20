@@ -5,7 +5,7 @@ const SmashForm = () => {
         e.preventDefault()
         console.log(e.target.smash.value)
         if(e.target.smash.value == "?"){
-            window.location.href = "https://www.youtube.com/watch?v=L_jWHffIx5E"
+            window.location.href = "https://www.youtube.com/watch?v=HLQ1cK9Edhc"
 
         }
     }
