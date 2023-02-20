@@ -5,3 +5,13 @@ body {
 img {
     max-width: 400px;
 }
+
+button{
+    background-color: white;
+    border: none;
+    width: 20%;
+}
+
+button > img {
+    width: 20%
+}
