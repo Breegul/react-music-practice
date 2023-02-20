@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Artist from './Artist'
 
 const App = () => {
   return (
-    <div>App</div>
+
+    <Artist/>
+
   )
 }
 
