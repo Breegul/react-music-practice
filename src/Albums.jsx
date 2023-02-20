@@ -1,4 +1,5 @@
 import React from 'react'
+import Like from "./Like"
 
 const Albums = () => {
     const albums = [
@@ -44,6 +45,7 @@ const Albums = () => {
             <h2>{album.name}</h2>
             <p>{album.release}</p>
             <img src={album.cover} alt={album.name + "'s cover art"} />
+            <Like/>
         </li>
     )
 
