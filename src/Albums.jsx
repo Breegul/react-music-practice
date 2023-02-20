@@ -1,6 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 
 const Albums = () => {
+
+    const [showAlbums, setShowAlbums] = useState(false)
+
+
     const albums = [
         {
             name: "Fush Yu Mang",
@@ -49,9 +54,9 @@ const Albums = () => {
 
     return (
         <>
-        <ul>
-            {albumList}
-        </ul>
+
+        <button onClick={() => setShowAlbums(!showAlbums)}>{showAlbums ? "Hide Albums" : "Show Albums"}</button>
+        {showAlbums ? <ul>{albumList}</ul> : null  }
         </>
     )
 }
