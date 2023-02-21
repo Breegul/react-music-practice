@@ -6,14 +6,12 @@ const SmashForm = () => {
         console.log(e.target.smash.value)
         if(e.target.smash.value == "?"){
             window.location.href = "https://www.youtube.com/watch?v=HLQ1cK9Edhc"
-
         }
     }
   return (
     <>
     <h2>Did you know about Smash Mouth before Shrek?</h2>
-    <form onSubmit={handleSubmit}>
-    
+    <form onSubmit={handleSubmit}>   
         <input type="radio" name="smash" id="yes" value="yes"/>
         <label htmlFor="yes">Yes</label>
     <br/>
